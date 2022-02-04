@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 import logo from '../images/ill-short-dark.svg'
 import Layout from '../components/Layout'
 
-import './components/fonts/css2.css';
+import './components/fonts/custom.css';
 
 
 
