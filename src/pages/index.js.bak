@@ -7,8 +7,16 @@ import SEO from '../components/SEO'
 import logo from '../images/ill-short-dark.svg'
 import Layout from '../components/Layout'
 
-import './components/fonts/custom.css';
+import './components/fonts/css2.css';
 
+
+import WebFont from 'webfontloader';
+
+WebFont.load({
+   google: {
+     families: ['JetBrains Mono:300,400,700', 'sans-serif']
+   }
+});
 
 
 const StoreIndex = ({location}) => {

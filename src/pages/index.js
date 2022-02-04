@@ -10,6 +10,14 @@ import Layout from '../components/Layout'
 import './components/fonts/css2.css';
 
 
+import WebFont from 'webfontloader';
+
+WebFont.load({
+   google: {
+     families: ['JetBrains Mono:400,500', 'sans-serif']
+   }
+});
+
 
 const StoreIndex = ({location}) => {
   const data = useStaticQuery(graphql`
