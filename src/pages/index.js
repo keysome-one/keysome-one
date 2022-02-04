@@ -9,7 +9,7 @@ import Layout from '../components/Layout'
 
 ##import './components/fonts/css2.css';
 
-
+/* 
 import WebFont from 'webfontloader';
 
 WebFont.load({
@@ -17,7 +17,7 @@ WebFont.load({
      families: ['JetBrains Mono:400']
    }
 });
-
+ */
 
 const StoreIndex = ({location}) => {
   const data = useStaticQuery(graphql`
