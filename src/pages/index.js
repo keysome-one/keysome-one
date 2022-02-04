@@ -14,7 +14,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
    google: {
-     families: ['JetBrains Mono:400,500', 'sans-serif']
+     families: ['JetBrains Mono:400']
    }
 });
 
